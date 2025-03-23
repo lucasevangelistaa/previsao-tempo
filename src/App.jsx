@@ -23,8 +23,8 @@ function App() {
     }
   };
   return (
-    <div className="min-h-screen bg-blue-200 flex flex-col items-center justify-start pt-10">
-      <h1 className="text-white text-4xl font-bold mb-6">Previsão do Tempo</h1>
+    <div className="min-h-screen bg-gray-400 flex flex-col items-center justify-start pt-10">
+      <h1 className="text-blue-700 text-4xl font-bold mb-6">Previsão do Tempo</h1>
       <SearchBar onSearch={handleSearch}/>
       {error && <p className="text-red-600 mt-4 font-bold">{error}</p>}
       {loading && (<div className="mt-4">

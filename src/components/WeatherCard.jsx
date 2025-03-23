@@ -1,6 +1,6 @@
 export default function weatherCard({ data }) {
     return (
-        <div className="bg-white shadow-lg rounded-2xl p-6 text-center max-w-sm mx-auto mt-6">
+        <div className="bg-white shadow-lg rounded-2xl p-6 text-center max-w-sm mx-auto mt-6 w-full">
             <h2 className="text-2xl font-bold mb-2">{data.name}</h2>
             <p className="text-gray-600 mb-4">{data.weather[0]?.description || "Descrição Indisponível!"}</p>
             <img
